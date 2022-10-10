@@ -1,1 +1,422 @@
 /* Desenvolva sua estilização aqui... */
+header {
+    width: 23.438rem;
+    height: 49.313rem;
+
+
+}
+
+/* background-image: url('../../assets/Pexels\ Photo\ by\ Christina\ Morillo.png');
+    background-position:center;
+    background-size: auto; */
+.section-header {
+    width: 23.438rem;
+    height: 49.313rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 6.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+
+
+
+
+
+}
+
+.img-div {
+    height: 49.313rem;
+    position: relative;
+}
+
+.header-title {
+    width: 193.31px;
+    height: 23.97px;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    width: 343px;
+    height: 96px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    /* grey-3 */
+
+    color: #DEE2E6;
+
+}
+
+.div-interna {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title-text {
+    width: 343px;
+
+    /* text-1 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+
+    /* grey-5 */
+
+    color: #F1F3F5;
+
+
+}
+
+.button-vagas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 45px;
+    gap: 10px;
+
+    width: 296px;
+    height: 48px;
+
+    /* brand-1 */
+
+    background: #6741D9;
+    /* brand-1 */
+
+    border: 2px solid #6741D9;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* grey-6 */
+
+    color: #FFFFFF;
+
+
+}
+
+#section-vagas {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 2.688rem;
+
+
+}
+
+.vagas-title {
+    width: 73px;
+    height: 33px;
+    left: 16px;
+    top: 832px;
+
+    /* title-4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    /* grey-1 */
+
+    color: #212529;
+    margin-bottom: 2.75rem;
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 38px;
+    gap: 28px;
+
+    width: 344px;
+    height: 530px;
+
+    /* grey-6 */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 2rem 0;
+
+}
+
+.vaga-title {
+    width: 268px;
+    height: 66px;
+
+    /* title-4 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+
+    /* grey-1 */
+
+    color: #212529;
+
+
+}
+
+.vaga-info {
+    width: 120px;
+    height: 22px;
+
+    /* text-3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* grey-2 */
+
+    color: #343A40;
+
+
+}
+
+.vaga-info2 {
+    width: 100px;
+    height: 22px;
+
+    /* text-3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* grey-2 */
+
+    color: #343A40;
+
+}
+
+.info-text {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: flex-start;
+    margin-top: 1.125rem;
+    margin-bottom: 1.75rem;
+
+
+}
+
+.p-text {
+    width: 268px;
+    height: 192px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 2rem;
+    /* or 200% */
+
+
+    /* grey-2 */
+
+    color: #343A40;
+
+
+}
+
+.p-text2 {
+
+    /* text-3 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    /* grey-2 */
+
+    color: #343A40;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+
+    width: 111px;
+    height: 30px;
+
+    /* grey-3 */
+
+    background: #DEE2E6;
+    border-radius: 8px;
+    margin-bottom: 2.688rem;
+
+
+}
+
+
+.candidate-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+
+    width: 268px;
+    height: 38px;
+
+    /* brand-1 */
+
+    background: #6741D9;
+    /* brand-1 */
+
+    border: 2px solid #6741D9;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* grey-6 */
+
+    color: #FFFFFF;
+
+}
+
+.vagas-selected {
+    width: 343px;
+    height: 367px;
+
+
+    /* grey-6 */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 38px;
+    gap: 28px;
+
+    width: 344px;
+
+    margin: 1rem;
+    /* grey-6 */
+
+    background: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+main {
+    background-color: var(--color-grey-3);
+    height: 100%;
+    width: 23.438rem;
+}
+
+.modalities-paragraph {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+@media(min-width: 500px) {
+    .section-header {
+        width: 100vw;
+    }
+
+    .img-div {
+        width: 100vw;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    main {
+        width: 100vw;
+
+    }
+
+    #section-vagas {
+        width: 60%;
+
+
+    }
+
+    aside {
+        width: 35%;
+        position: absolute;
+        left: 65%;
+        height: 100vh;
+        top: 890px;
+    }
+
+    .vagas-selected {
+        position: sticky;
+        top: 100px;
+    }
+}
+
+#button-trash {
+    height: 38px;
+    width: 44px;
+    border-radius: 8px;
+    background-color: var(--color-grey-5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    padding: 0;
+
+}
+#button-trash img{
+    width: 50%;
+    height: 50%;
+    
+}
+.vaga-content{
+    display: flex;
+}

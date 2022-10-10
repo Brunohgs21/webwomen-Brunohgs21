@@ -1,8 +1,8 @@
 const jobsData = [
   {
     id: 0,
-    title: "Pessoa desenvolvedora front-end - React",
-    enterprise: "Kenzie",
+    title: "Pessoa desenvolvedora front-end - React JS",
+    enterprise: "Kenzie Academy",
     location: "Curitiba",
     descrition:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
