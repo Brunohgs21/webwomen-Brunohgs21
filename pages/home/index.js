@@ -51,6 +51,9 @@ function createTemplate(objeto){
     pText.classList.add('p-text')
     pText.innerText = descricao
 
+    const div2 = document.createElement('div')
+    div2.classList ='div-vagas'
+
     const modalidades = document.createElement('p')
     modalidades.classList.add('modalities-paragraph')
 
@@ -91,21 +94,11 @@ function createTemplate(objeto){
 
     modalidades.append(pText2,pText3)
     infoText.append(vagaInfo,vagaInfo2)
-    div.append(h4,infoText,pText,modalidades,btnCandidate)
+    div2.append(modalidades,btnCandidate)
+    div.append(h4,infoText,pText,div2)
     li.append(div)
 
     return li
     
 }
-    /*<li class="vaga">
-                <div>
-                  <h4 class="vaga-title">Pessoa desenvolvedora front-end React JS</h4>
-                  <p class="info-text"><span class="vaga-info">Kenzie Academy</span><span class="vaga-info2">Curitiba</span>
-                  </p>
-                  <p class="p-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has
-                    been the industry's standard dummy text ever since the 1500s</p>
-                  <p class="p-text2">Home Office</p>
-                  <button class="candidate-button">Candidatar</button>
-                </div>
-              </li>*/
+   

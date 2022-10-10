@@ -15,7 +15,16 @@ function checkVagas(){
   
     if(jobsAssigned.length == 0){
         
-        listVagas.innerHTML = `<h3>Você ainda não aplicou para nenhuma vaga</h3>`
+        listVagas.innerHTML = `<h3 class='title-empty'>Você ainda não aplicou para nenhuma vaga</h3>
+        <div class='flex col gap'>
+        <img id='img1' src='./assets/img/Rectangle 41.png'>
+        <img id='img2' src='./assets/img/Rectangle 42.png'>
+        <div class='flex row gap2'>
+        <img id='img3' src='./assets/img/Rectangle 43.png'>
+        <img id='img4' src='./assets/img/Rectangle 44.png'>
+        <img id='img5' src='./assets/img/Rectangle 44.png'>
+        </div>
+        </div>`
     }
 
 }
@@ -87,9 +96,11 @@ function createTemplateVaga(vaga){
     const {title,location, enterprise, id} = vaga
 
     const li = document.createElement('li')
+    li.classList.add('list-item')
 
     const div = document.createElement('div')
     div.classList.add('vaga-content')
+    
 
     const p = document.createElement('p')
     p.innerHTML = title
@@ -132,10 +143,3 @@ function createTemplateVaga(vaga){
 }
 
 
-/* <li>
-            <div class="vaga-content">
-              <p>Pessoa desenvolvedora front-end-React JS</p>
-              <button id="button-trash" class="candidate-button"><img src="./assets/img/trash (1).png" alt=""></button>
-            </div>
-            <p class="info-text"><span class="vaga-info">Enterprise</span><span class="vaga-info2">Location</span></p>
-          </li> */
